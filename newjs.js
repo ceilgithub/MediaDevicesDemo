@@ -28,7 +28,7 @@ elementById.addEventListener('click', () => {
 
 
             setInterval(() => {
-                console.time("time")
+                // console.time("time")
                 ctx.drawImage(videoElement,
                     (videoElement.videoWidth - 400) / 2, (videoElement.videoHeight - 400) / 2,  // 视频截取的起点坐标
                     400, 400,  // 截取的宽高
@@ -45,7 +45,7 @@ elementById.addEventListener('click', () => {
                 // ctx.toBlob((bb)=>{
                 //     console.log(bb)
                 // },'image/jpeg')
-                console.timeEnd("time")
+                // console.timeEnd("time")
             }, 5)
 
 
